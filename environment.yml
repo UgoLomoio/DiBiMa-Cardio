@@ -1,0 +1,12 @@
+# conda env create -f environment.yml && conda activate dibima-cardio
+# then install mamba_ssm as described in INSTALL.md (step 3)
+name: dibima-cardio
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu128
+      - torch==2.9.0
+      - -r requirements.txt

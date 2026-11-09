@@ -1,0 +1,15 @@
+{
+ "protocol": "derived_shared_standardized_noise",
+ "batch_size": 8,
+ "inference_seed": 42,
+ "extras": {
+  "subset_count": 256,
+  "protocol": "derived_shared_standardized_noise",
+  "mask_convention": "missing-one",
+  "all_reference_conversions_verified": false,
+  "native_reference": "project_preprocessed",
+  "baseline_reference": "unicardio_preprocessed",
+  "subject_independence": "record IDs do not establish patient independence"
+ },
+ "sr_mask_present": false
+}

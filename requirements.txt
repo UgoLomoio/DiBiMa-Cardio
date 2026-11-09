@@ -1,0 +1,17 @@
+# Install PyTorch (CUDA build) first, then: pip install -r requirements.txt
+# Tested: Python 3.13.2, torch 2.9.0+cu128, mamba_ssm 2.3.1, causal-conv1d 1.6.2.post1, triton 3.5.0.
+# mamba_ssm (and optionally causal-conv1d) are installed separately, see INSTALL.md.
+numpy>=1.26
+scipy>=1.11
+pandas>=2.1
+pyyaml>=6
+matplotlib>=3.8
+einops>=0.7
+diffusers>=0.30
+pytorch-lightning>=2.3
+transformers>=4.44
+neurokit2>=0.2.10
+huggingface_hub>=0.30
+# interactive demo (app.py)
+gradio>=5.0
+plotly>=5.20

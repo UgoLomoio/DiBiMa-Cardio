@@ -1,0 +1,17 @@
+# model weights are downloaded with scripts/download_weights.py
+weights/*
+!weights/README.md
+!weights/unicardio_no_compress799.pth
+# outputs
+results/
+*.log
+# python / editors
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+.gradio/
+flagged/
